@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#taskInput{
+  padding: 10px 15px;
+  margin: 20px;
+  border: 2px solid #d1d5db;
+  border-radius: 20px; 
+}
+#addTask{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2563eb;
+  color: white;
+}
