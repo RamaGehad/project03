@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  margin: 20px;
+}
+#increment { background-color: #d1fae5;
+padding: 20px;
+border-radius: 20px;
+}
+#decrement { background-color: #fee2e2;
+padding: 20px; 
+border-radius: 20px;
+}
+#reset{ background-color: #e5e7eb;
+    padding: 20px; 
+    border-radius: 20px;
+}
