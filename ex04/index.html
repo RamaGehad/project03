@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Task Manager</h1>
-    <input id="taskInput" type="text" placeholder="Enter a task">
-    <button id="addTask">Add Task</button>
-    <p id="total">Total Task:0</p>
-    <ul id="list"></ul>
-    <script src="script.js" defer></script>
+  <h1>Task Manager</h1>
+  <p>Total tasks: <span id="counter">0</span></p>
+
+  <input type="text" id="task-input" placeholder="Write a task...">
+  <button id="add-btn">Add</button>
+
+  <ul id="task-list"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>

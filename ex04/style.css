@@ -1,17 +1,46 @@
-body{
-    text-align: center;
-    font-family: Arial, sans-serif;
+body {
+  font-family: sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
 }
-#taskInput{
-  padding: 10px 15px;
-  margin: 20px;
-  border: 2px solid #d1d5db;
-  border-radius: 20px; 
+
+#task-input {
+  font-size: 16px;
+  padding: 8px;
 }
-#addTask{
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background-color: #2563eb;
+
+button {
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  background: #e74c3c;
   color: white;
+  border: none;
+  border-radius: 4px;
 }
